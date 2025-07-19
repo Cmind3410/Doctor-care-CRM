@@ -1,0 +1,55 @@
+ body {
+         font-family: "Poppins", sans-serif;
+      }
+/* banner css */
+#banner{
+    position: relative;
+}
+#banner h1{
+    font-size: 12.5vh;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.banner-bg{
+    background: url(../images/b1.jpg); 
+    background-size: cover;
+    height:690px;
+}
+/* why-us css */
+.why-us{
+   position: absolute;
+   top:40%;
+}
+.why-choose {
+    background-color: rgba(189, 246, 246, 0.53);
+    border-radius: 52px;
+    padding: 40px 40px 20px 40px;
+}
+.why-choose h2{
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+.btn-c{
+    background-color:rgba(6, 156, 211, 0.63);
+    color: #fff;
+    border-radius: 50px;
+}
+/* care-tab */
+.care-tab{
+    background: rgba(255,255,255,0.59);
+    border-radius: 100px;
+     text-align: center;
+     min-height: 336px;
+     
+    
+}
+.care-tab h2{
+    color: #34AEB2;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+   
+}
