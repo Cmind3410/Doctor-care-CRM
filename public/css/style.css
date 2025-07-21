@@ -4,6 +4,7 @@
 /* banner css */
 #banner{
     position: relative;
+        margin-bottom: 170px;
 }
 #banner h1{
     font-size: 12.5vh;
@@ -52,4 +53,96 @@
     font-weight: 800;
     line-height: 32px;
    
+}
+ /* Need help Now */
+.need{
+background-color: rgb(52,174,178,100);
+color: white;
+text-align: center;
+margin-top: 150px;
+
+}
+.need h2{
+    font-weight: 800;
+    
+}
+.btn-m{
+    border: solid 3px white;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+   text-transform: capitalize;
+}
+/* about */
+.app h2{
+    color:rgb(52,174,178,100) ;
+    margin-top: 15px;
+    margin-left: 23px;
+    font-size: 32px;
+    font-weight:800 ;
+}
+.icon2{
+        margin-left: 51px;
+    margin-top: 31px;
+}
+
+/* counts */
+.counts{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.count-bx{
+    background-color: white;
+    border-radius: 75px;
+    padding:40px 25px;
+    text-align: center;
+    position: relative;
+}
+.count-bx h2{
+    color: #34AEB2;
+    font-size: 65px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.count-bx h4{
+    font-size: 40px;
+}
+.count-bx-icon{
+    position: absolute;
+    top:-53px;
+    left: 40%;   
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border:1px solid #000;
+    display: block;
+}
+.count-bx-icon img{
+    width: 80px;
+}
+/* Services */
+.Services h2{
+    color: #34AEB2;
+    font-weight: 900;
+    text-align: center;
+    font-size: 66px;
+    margin-top: 30px;
+}
+.Services p{
+    text-align: center;
+    margin-top: 15px;
+}
+.service img{
+    background-color: #34AEB2;
+    width: 91px;
+    border-radius: 50px;
+        margin-left: 202px;
+    margin-top: 93px;
+}
+.Services #ser{
+    text-align: left;
+}
+.service ul li{
+    
 }
