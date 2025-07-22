@@ -136,13 +136,89 @@ margin-top: 150px;
 .service img{
     background-color: #34AEB2;
     width: 91px;
-    border-radius: 50px;
+    border-radius: 55px;
         margin-left: 202px;
     margin-top: 93px;
+    
+    
+}
+.appoinement{
+    text-align: center;
 }
 .Services #ser{
     text-align: left;
 }
-.service ul li{
-    
+ .btn-appoint {
+    background-color: #3db9ba;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .btn-appoint:hover {
+    background-color: #2e9da0;
+  }
+
+  .appointment-section input,
+  .appointment-section textarea {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 0.95rem;
+  }
+
+  .appointment-section input::placeholder,
+  .appointment-section textarea::placeholder {
+    color: #aaa;
+  }
+
+  .doctor-card {
+  background-color: #3db9ba;
+  border-radius: 15px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
 }
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.doctor-card img {
+  border: 4px solid white;
+}
+
+@media (max-width: 768px) {
+  .doctor-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .doctor-img {
+    margin-right: 0 !important;
+    margin-bottom: 1rem;
+  }
+}
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   /* banner css */
+        #banner{
+            position: relative;
+                margin-bottom: 170px;
+        }
+        #banner h1{
+            font-size: 5.5vh;  
+            padding-top: 20px;
+            padding-left: 15px;
+        }
+        /* why-us css */
+        .why-us{
+        top:20%;
+        }
+        .why-choose {
+            background-color: rgba(189, 246, 246, 0.);
+            border-radius: 10px;
+            padding: 15px;
+        }
+ }

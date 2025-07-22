@@ -68,13 +68,13 @@
 
   </div>
   <div class="why-us">
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-md-5">
       <div class="row">
         <div class="col-md-3">
           <div class="why-choose shadow-lg">
-            <div class="bg-ligh p-4 ">
+            <div class="bg-ligh p-md-4 ">
 
-              <h2>Why Choose <br>Doctor Care ?</h2>
+              <h2>Why Choose <br class="d-none d-md-block">Doctor Care ?</h2>
               <p class="pt-3">Lorem ipsum dolor sit amet, meaning 'Pain itself is love, pain is love,' is a commonly used placeholder in design and publishing. It speaks of enduring hardship for the sake of meaning.</p>
               <div class="text-center mt-4"><button class="btn btn-c px-4">Learn More ></button></div>
             </div>
@@ -125,7 +125,7 @@
     <button class="btn btn-m px-4 mt-4">Make an Appointment </button>
 
 
-  </div>
+  </div> 
   <!-- start about  -->
   <div class="container-fluid about mt-5 mb-5">
     <div class="row">
@@ -157,9 +157,9 @@
           
       </div>
     </div>
-  </div>
+  </div> 
   <!-- start counts  -->
-  <div class="counts container-fluid px-5 mt-5" style="background-color: #cbf7f7;">
+   <div class="counts container-fluid px-5 mt-5" style="background-color: #cbf7f7;">
       <div class="row">
         <div class="col-md-4 px-5">
           <div class="count-bx">
@@ -197,39 +197,115 @@
       </div>
   </div>
 
-  <div class=" Services container-fluidc py-5 ">
+  <div class="Services container-fluidc py-5 ">
     <h2>Services</h2>
     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-
+    
     <div class="service ">
-      
-      <img src="../public/images/icon/S/S2.png" alt="">
-      <ul>
+      <div class="row">
+      <div class="col-4"><img src="../public/images/icon/S/S2.png" class="shadow-lg" alt="">
+      <ul class="pt-4">
         <li>
       <p id="ser">Care for patients who need to stay overnight or longer.</p></li>
       <li>
       <p id="ser">Includes medical, surgical, maternity, and intensive care units (ICU).</p></li>
-      </ul>
-
-      <img src="../public/images/icon/S/S1.png" width="132" alt="">
-      <ul>
+      </ul></div>
+    <div class="col-4"> 
+      <img src="../public/images/icon/S/S1.png" class="shadow-lg" alt="">
+      <ul  class="pt-4">
         <li>
       <p id="ser">Medical procedures or tests that do not require an overnight stay.</p></li>
       <li>
       <p id="ser">Includes diagnostics (e.g., X-rays, MRIs), specialist consultations, minor surgeries, and rehabilitation</p></li>
-      </ul>
-
-
-      <img src="../public/images/icon/S/S3.png" alt="">
-      <ul>
+      </ul></div>
+    <div class="col-4">  <img src="../public/images/icon/S/S3.png" class="shadow-lg"  alt="">
+      <ul  class="pt-4">
         <li>
       <p id="ser">Immediate care for urgent and life-threatening conditions (e.g., trauma, heart attacks, strokes).</p></li>
       <li>
       <p id="ser">24/7 availability with an Emergency Department (ER/ED).</p></li>
       </ul>
+      </div>
+</div>
+      
 
+     
+
+
+    
+    </div>
+  </div> 
+
+  <!-- Include in your HTML body -->
+<section class="appointment-section py-5" style="background-color: #ecfafa;">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">MAKE AN APPOINTMENT</h2>
+      <p class="text-muted">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <form>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Phone">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+        </div>
+        <div class="col-12 text-center mt-3">
+          <button type="submit" class="btn btn-appoint px-5 py-2">Make an Appointment</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Doctors Section -->
+<section class="doctors-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold " style="color: #3db9ba;">Doctors</h2>
+    </div>
+
+    <div class="row justify-content-center g-4">
+      <!-- Doctor Card 1 -->
+      <div class="col-md-5">
+        <div class="doctor-card d-flex align-items-center p-4 shadow-sm">
+          <div class="doctor-img me-4">
+            <img src="../public/images/icon/D/D1.jpg" class="rounded-circle" width="100" height="100" alt="Doctor 1">
+          </div>
+          <div>
+            <p class="mb-2">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+            <h6 class="fw-bold mb-0">Walter White</h6>
+            <small class="text-muted">Chief Medical Officer</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Doctor Card 2 -->
+      <div class="col-md-5">
+        <div class="doctor-card d-flex align-items-center p-4 shadow-sm">
+          <div class="doctor-img me-4">
+            <img src="../public/images/icon/D/D2.jpg" class="rounded-circle" width="100" height="100" alt="Doctor 2">
+          </div>
+          <div>
+            <p class="mb-2">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+            <h6 class="fw-bold mb-0">Sarah Jhonson</h6>
+            <small class="text-muted">Anesthesiologist</small>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+</section>
+
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 
